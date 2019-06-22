@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto - Formulario</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/estilo.css">
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+</head>
+<body>
+
+
+<header id="topo">
+        <div class="container">
+            
+            <h1 id="title">Encontre o seu Parente</h1>
+            
+        <div><p id="description"> Este Formulario tem por finalidade buscar os parentes perdidos</p></div>
+        </div>
+
+</header>
+
+<main> 
+
+  <section>
+     <div class="container">
+         <div class="row">
+             <div class="col-md-12">
+               
+                    <form id="survey-form" action="#">
+                     <div class="form-group">
+                          <label id="name-label" for="nome">Digite o seu Nome</label>
+                          <input class="form-control" id="name" type="text" placeholder="Digite o seu nome" required>
+                     </div>
+
+                     <div class="form-group">
+                            <label id="email-label" for="email">Digite o seu E-mail</label>
+                            <input class="form-control" id="email" type="email"  
+                            placeholder="Digite o seu E-mail" required="required">
+                       </div>
+
+                       <div class="form-group">
+                            <label id="number-label" for="numero">Digite um Numero</label>
+                            <input class="form-control" id="number" 
+                            type="number" min="5" max="10" 
+                            placeholder="Digite um Numero" pattern="[0-9]+$" required="required">
+                       </div>
+
+                       <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecione um Valor:</label>
+                            <select id="dropdown" class="form-control" >
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <hr>
+
+
+                          <h3>Qual time ele Torce?</h3>
+                          <div class="form-check">
+                                <input class="form-check-input" type="radio" name="name" id="timao" value="option1" checked>
+                                <label class="form-check-label" for="timao">
+                                Corinthians
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="name" id="saopaulo" value="option1" checked>
+                                    <label class="form-check-label" for="saopaulo">
+                                    São Paulo
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="name" id="palmeiras" value="option1" checked>
+                                        <label class="form-check-label" for="palmeiras">
+                                        Palmeiras
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="name" id="santos" value="option1" checked>
+                                            <label class="form-check-label" for="santos">
+                                            Santo FC
+                                            </label>
+                                        </div>
+                                        <hr>
+                                        <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="teste" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                 Campeão
+                                                </label>
+                                              </div>
+
+                                              <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="teste" id="defaultCheck1">
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                     Vice-Campeão
+                                                    </label>
+                                                  </div>
+                                                  <hr>
+                                                  <div class="form-group">
+                                                        <label for="area">Faça um comentario:</label>
+                                                        <textarea class="form-control" id="area" rows="3"></textarea>
+                                                      </div>
+
+                                                     <button id="submit" class="btn btn-success" type="submit">Enviar Dados</button> 
+
+
+                    </form>
+
+
+             </div>
+         </div>
+     </div>
+
+  </section>
+   
+
+
+
+
+
+</main>
+
+
+
+
+
+
+    
+</body>
+</html>

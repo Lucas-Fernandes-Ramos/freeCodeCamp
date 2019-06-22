@@ -1,0 +1,1 @@
+{"index.js":"// Declarations\nvar studlyCapVar;\nvar properCamelCase;\nvar titleCaseOver;\n\n// Assignments\n studlyCapVar = 10;\n properCamelCase = \"A String\";\n titleCaseOver = 9000;"}

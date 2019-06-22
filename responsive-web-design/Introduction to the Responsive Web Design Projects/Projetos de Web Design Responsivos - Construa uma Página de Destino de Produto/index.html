@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projeto - Pagina de Destino</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/estilo.css">
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<style>
+  header{
+    position:fixed;
+   
+  } 
+  @media (max-width: 991.98px) { 
+    body{
+      background-color:black;
+      color:white;
+    }
+  }
+  
+  #rodape {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 3em 15% 0 15%;
+}
+  </style>
+  
+  
+</head>
+<body>
+
+  <header id="header">
+    <div >
+      <img id="header-img" src="./img/logo01.png" alt="" width="140"></div>
+   
+    <nav id="nav-bar" class=" fixed-top navbar navbar-expand-lg navbar-light bg-light">
+    
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#teste1">teste1 <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#teste2">teste2</a>
+          </li>
+       
+          <li class="nav-item">
+            <a class="nav-link " href="#teste3">teste3</a>
+          </li>
+        </ul>
+       
+      </div>
+    </nav>
+  
+  </header>
+
+  <div class="container">
+  <section id="teste1" class="d-flex">
+    <div class="container">
+     <div class="row">
+         <div class="col-md-8">
+            <iframe  id="video" width="560" height="315" src="https://www.youtube.com/embed/PkZNo7MFNFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+         <div class="col-md-4 align-self-center">
+           <h2>Introdução ao JavaScript</h2>
+           <p>JavaScript é uma linguagem de programação de alto nível 
+            que todos os navegadores modernos suportam.
+             É também uma das principais tecnologias da web,
+              juntamente com HTML e CSS que você pode ter aprendido 
+              anteriormente. Esta seção abordará os conceitos básicos
+               de programação JavaScript, que variam de variáveis ​​
+               e aritmética a objetos e loops.
+               </p>
+         </div>
+     </div>
+
+    </div>
+
+
+  </section>
+<hr>
+
+<section id="teste2">
+ <div class="container d-flex flex-row">
+   <div class="row">
+     <div class="col-md-6">
+       <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <div>
+            <label for="email">E-mail</label>
+            <input name="email" type="email" required id="email" placeholder="Digite seu E-mail" >
+          </div>
+          <div>
+              <label for="email">E-mail</label>
+              <input type="submit" id="submit" class="btn" value="Enviar">
+            </div>
+       </form>
+      
+     </div>
+   </div>
+ </div>
+
+
+</section>
+
+<section id="teste3">
+ <div class="container">
+   <div class="row">
+     <div class="col-md-6">
+      
+      
+     </div>
+   </div>
+ </div>
+
+
+</section>
+</div>
+  <footer id="rodape">
+  
+  </footer>
+    
+</body>
+</html>

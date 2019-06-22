@@ -1,0 +1,1 @@
+{"index.js":"// Example\nvar ourStr = \"I come first. \" + \"I come second.\";\n\n// Only change code below this line\n\nvar myStr =  \"This is the start. \"\n+\n\"This is the end.\";\n\n"}

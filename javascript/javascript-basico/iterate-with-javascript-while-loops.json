@@ -1,0 +1,1 @@
+{"index.js":"// Setup\nvar myArray = [];\nvar  cont = 0;\n\nwhile(cont < 5){\n  myArray.push(cont);\n  cont++;\n  }\n// Only change code below this line.\n\n\n"}

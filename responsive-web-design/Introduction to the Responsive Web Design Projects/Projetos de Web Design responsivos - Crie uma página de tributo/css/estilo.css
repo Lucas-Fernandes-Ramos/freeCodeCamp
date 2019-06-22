@@ -1,0 +1,60 @@
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ img{
+    display: block;
+    max-width: 100%;
+    height: auto; 
+    border-radius: 20px;
+    border: 1px solid wheat;
+    box-shadow: 5px 10px #888888;
+}
+
+img:hover{
+    border-radius: 20px;
+    border: 1px solid wheat;
+    box-shadow: 5px 10px whitesmoke;
+  }
+
+.img-membros {
+    width: 150px;
+    height: 150px;
+}
+
+#tribute-info{
+    color: rgb(223, 213, 213);
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+   
+}
+
+a{
+    color: white;
+}
+a:hover{
+    background-color: black;
+    color: wheat;
+}
+
+a:link{
+    text-decoration: none;
+    }
+
+   #tribute-link{
+        text-align: center;
+    }
+
+   #img-caption{
+       color: white;
+   } 
+
+   #saiba-mais{
+       text-align: center;
+   }
